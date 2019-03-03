@@ -20,7 +20,7 @@ var streamConstraints;
 var myMediaStream;
 
 const room = getRoom();
-const wsChat = new WebSocket("ws://localhost:8080/comm");
+const wsChat = new WebSocket("ws://codeer12.github.io/Video-Call-App/comm");
 
 window.addEventListener('load', function(){
     startCounter();//shows the time spent in room
